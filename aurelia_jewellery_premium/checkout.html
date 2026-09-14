@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Checkout — AURELIA</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head>
+<body><header class="checkout-header"><a class="brand" href="index.html"><span>AURELIA</span><small>FINE JEWELLERY / MILANO</small></a><span>SECURE CHECKOUT</span></header>
+<section class="checkout-page"><div class="checkout-form-wrap"><p class="eyebrow">SECURE CHECKOUT</p><h1>Complete your<br><em>purchase.</em></h1><div class="steps"><span class="active">01 / INFORMATION</span><span>02 / DELIVERY</span><span>03 / PAYMENT</span></div>
+<form id="checkoutForm"><fieldset><legend>Contact</legend><label>Email<input required type="email" placeholder="Email address"></label></fieldset><fieldset><legend>Delivery address</legend><div class="two-fields"><label>First name<input required></label><label>Last name<input required></label></div><label>Address<input required placeholder="Street address"></label><div class="two-fields"><label>City<input required></label><label>Postal code<input required></label></div><label>Country<select><option>India</option><option>Italy</option><option>France</option><option>United Kingdom</option></select></label></fieldset>
+<fieldset><legend>Payment</legend><div class="payment-methods"><button type="button" class="payment-method active" data-pay="card">Card</button><button type="button" class="payment-method" data-pay="upi">UPI</button><button type="button" class="payment-method" data-pay="cod">Cash on Delivery</button></div>
+<div class="payment-extra show" id="pay-card"><label>Card number<input id="cardNumber" inputmode="numeric" maxlength="19" placeholder="1234 5678 9012 3456"></label><div class="two-fields"><label>Expiry<input id="expiry" placeholder="MM / YY"></label><label>CVV<input id="cvv" maxlength="4" placeholder="•••"></label></div></div>
+<div class="payment-extra" id="pay-upi"><label>UPI ID<input id="upiId" placeholder="yourname@upi"></label><p class="cod-note">Demo UPI selection. No real payment is processed by this website.</p></div>
+<div class="payment-extra" id="pay-cod"><p class="cod-note">Cash on Delivery is available for eligible addresses. Payment is collected when your jewellery arrives.</p></div></fieldset>
+<button class="primary-button" type="submit">Place secure order <span>→</span></button><p id="checkoutMessage" class="form-message"></p></form></div>
+<aside class="order-summary"><p class="eyebrow">ORDER SUMMARY</p><div id="checkoutItems"></div><div class="summary-line"><span>Subtotal</span><b id="subtotal">€ 0</b></div><div class="summary-line"><span>Delivery</span><b>Complimentary</b></div><div class="summary-total"><span>Total</span><b id="total">€ 0</b></div><a href="cart.html">← Return to shopping bag</a></aside></section>
+<section class="order-success" id="checkoutSuccess">
+  <div class="order-success-inner">
+    <div class="order-success-mark">✓</div>
+    <p class="eyebrow">AURELIA PRIVATE CLIENT</p>
+    <h1>Thank you for<br><em>shopping with us.</em></h1>
+    <p>Your order has been received. Your AURELIA pieces are now being prepared with care. A private client message will follow with your delivery details.</p>
+    <div class="confirmation-card">
+      <div class="confirmation-top"><span>ORDER NUMBER</span><b id="orderNumber">AUR-00000000</b></div>
+      <div id="confirmationItems"></div>
+      <div class="confirmation-total"><span>TOTAL</span><b id="confirmationTotal">€ 0</b></div>
+    </div>
+    <a class="btn btn-light" href="index.html">Return to AURELIA <span>↗</span></a>
+  </div>
+</section>
+<footer class="simple-footer">SECURE & DISCREET · AURELIA PRIVATE CLIENT SERVICES</footer><script src="script.js"></script></body></html>

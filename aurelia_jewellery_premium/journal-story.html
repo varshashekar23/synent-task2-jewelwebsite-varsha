@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>The Patina of Time — AURELIA Journal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.story-hero{display:grid;grid-template-columns:1.15fr .85fr;min-height:650px}
+.story-hero-image{background:url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1900&q=90") center/cover}
+.story-hero-copy{background:#e5dfd4;color:#171714;padding:100px 8vw;display:flex;flex-direction:column;justify-content:center}
+.story-hero-copy h1{font:500 clamp(65px,7vw,100px)/.78 "Cormorant Garamond";margin:15px 0 30px}
+.story-hero-copy p:not(.eyebrow){font-size:11px;line-height:2;color:#777;max-width:450px}
+.story-body{max-width:850px;margin:auto;padding:110px 7vw 130px;color:#d8d1c4}
+.story-body .eyebrow{margin-bottom:25px}
+.story-body h2{font:500 clamp(48px,5vw,70px)/.86 "Cormorant Garamond";margin-bottom:35px}
+.story-body p{font-size:12px;line-height:2.15;color:#929087;margin-bottom:25px}
+.story-quote{border-left:1px solid #c7ab68;padding:8px 0 8px 30px;margin:50px 0;font:italic 28px/1.15 "Cormorant Garamond";color:#e5dfd4}
+.story-back{margin-top:35px;display:inline-flex}
+@media(max-width:800px){
+  .story-hero{grid-template-columns:1fr}
+  .story-hero-image{height:480px}
+  .story-hero-copy{padding:70px 7vw}
+}
+</style>
+</head>
+<body>
+<div class="page-wipe"></div>
+
+<header class="site-header dark">
+  <a class="brand" href="index.html"><span>AURELIA</span><small>FINE JEWELLERY / MILANO</small></a>
+  <nav class="desktop-nav">
+    <a href="shop.html">Collections</a>
+    <a href="atelier.html">The Atelier</a>
+    <a class="active" href="journal.html">Journal</a>
+  </nav>
+  <div class="header-actions">
+    <a class="icon-btn wishlist-link" href="wishlist.html">♡<b class="wish-count">0</b></a>
+    <a class="icon-btn" href="login.html">◯</a>
+    <a class="icon-btn bag-link" href="cart.html">♧<b class="bag-count">0</b></a>
+    <button class="menu-trigger"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="story-hero">
+    <div class="story-hero-image"></div>
+    <article class="story-hero-copy">
+      <p class="eyebrow">CRAFT / JUNE 2026</p>
+      <h1>Why jewellery should become more beautiful with time.</h1>
+      <p>Patina is part of a story. We explore the relationship between precious materials, touch and memory.</p>
+    </article>
+  </section>
+
+  <article class="story-body">
+    <p class="eyebrow">THE STORY</p>
+    <h2>Objects that remember.</h2>
+    <p>Fine jewellery is made to live beyond a single moment. The smallest marks left by wear, light and touch slowly become part of the object itself.</p>
+    <p>Gold changes softly. Surfaces become warmer. A piece that is worn often begins to carry the rhythm of the person who chose it. For AURELIA, this evolution is not a flaw to hide, but a quiet record of time.</p>
+
+    <div class="story-quote">“The beauty of a jewel is not only how it begins, but how it learns the life around it.”</div>
+
+    <p>Our atelier considers proportion, finish and material with the idea that a jewel should remain relevant years after it leaves the workbench. Every detail is designed to welcome the signs of a life well lived.</p>
+    <p>That is why we believe jewellery should become more beautiful with time: not despite its history, but because of it.</p>
+
+    <a class="arrow-link story-back" href="journal.html">Back to Journal <span>←</span></a>
+  </article>
+</main>
+
+<footer class="footer compact">
+  <div class="footer-brand"><a class="brand" href="index.html"><span>AURELIA</span><small>FINE JEWELLERY / MILANO</small></a></div>
+  <div><h4>Explore</h4><a href="shop.html">Collections</a><a href="atelier.html">The Atelier</a></div>
+  <div><h4>Client Services</h4><a href="login.html">Account</a><a href="wishlist.html">Wishlist</a></div>
+  <div><h4>Contact</h4><p>Milano · Paris · London</p></div>
+  <div class="footer-bottom"><span>© 2026 AURELIA</span><span>MADE IN ITALY</span></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

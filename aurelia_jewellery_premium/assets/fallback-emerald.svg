@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs>
+ <radialGradient id="bg"><stop stop-color="#34312a"/><stop offset=".55" stop-color="#11110f"/><stop offset="1" stop-color="#050504"/></radialGradient>
+ <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#6e5425"/><stop offset=".35" stop-color="#e8ce8a"/><stop offset=".55" stop-color="#fff0b4"/><stop offset="1" stop-color="#8e6e35"/></linearGradient>
+ <radialGradient id="gem"><stop stop-color="#fff"/><stop offset=".45" stop-color="#4b8b69"/><stop offset="1" stop-color="#173f2e"/></radialGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<ellipse cx="450" cy="770" rx="270" ry="90" fill="#000" opacity=".65" filter="url(#shadow)"/>
+<g transform="translate(0 40) rotate(-7 450 560)">
+ <ellipse cx="450" cy="600" rx="265" ry="210" fill="none" stroke="url(#gold)" stroke-width="62"/>
+ <ellipse cx="450" cy="600" rx="215" ry="170" fill="none" stroke="#2b251b" stroke-width="12"/>
+ <path d="M450 390 C365 390 300 430 290 515 C280 595 340 650 405 690" fill="none" stroke="#f1d68e" stroke-opacity=".45" stroke-width="5"/>
+ <circle cx="450" cy="365" r="105" fill="#17140e" stroke="url(#gold)" stroke-width="24"/>
+ <circle cx="450" cy="365" r="72" fill="url(#gem)" stroke="#fff8d8" stroke-opacity=".55" stroke-width="4"/>
+ <path d="M420 350 L450 315 L480 350 L450 415 Z" fill="#fff" opacity=".26"/>
+ <g fill="#fff4c7" opacity=".85">
+  <circle cx="355" cy="405" r="6"/><circle cx="545" cy="405" r="6"/><circle cx="380" cy="430" r="4"/><circle cx="520" cy="430" r="4"/>
+ </g>
+</g>
+<text x="450" y="1010" text-anchor="middle" fill="#c8a85f" font-family="Georgia,serif" font-size="24" letter-spacing="8">AURELIA</text>
+</svg>

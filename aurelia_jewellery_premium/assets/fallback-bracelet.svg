@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs><radialGradient id="b"><stop stop-color="#39342a"/><stop offset=".6" stop-color="#11110f"/><stop offset="1" stop-color="#050504"/></radialGradient><linearGradient id="g"><stop stop-color="#7d5d2a"/><stop offset=".45" stop-color="#e6cb84"/><stop offset=".65" stop-color="#fff0b2"/><stop offset="1" stop-color="#7c5b29"/></linearGradient></defs>
+<rect width="900" height="1100" fill="url(#b)"/>
+<ellipse cx="450" cy="555" rx="280" ry="205" fill="none" stroke="url(#g)" stroke-width="52"/>
+<ellipse cx="450" cy="555" rx="220" ry="150" fill="#0b0b09" stroke="#fff0ad" stroke-opacity=".25" stroke-width="3"/>
+<g fill="#f8e8b8"><circle cx="260" cy="430" r="8"/><circle cx="640" cy="430" r="8"/><circle cx="230" cy="560" r="6"/><circle cx="670" cy="560" r="6"/><circle cx="300" cy="690" r="7"/><circle cx="600" cy="690" r="7"/></g>
+<text x="450" y="1010" text-anchor="middle" fill="#c8a85f" font-family="Georgia,serif" font-size="24" letter-spacing="8">AURELIA</text>
+</svg>

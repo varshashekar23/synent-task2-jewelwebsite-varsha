@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs><radialGradient id="b"><stop stop-color="#3b372e"/><stop offset=".55" stop-color="#11110f"/><stop offset="1" stop-color="#050504"/></radialGradient>
+<linearGradient id="g"><stop stop-color="#80642f"/><stop offset=".5" stop-color="#d6b96f"/><stop offset=".8" stop-color="#fff0ad"/><stop offset="1" stop-color="#80602c"/></linearGradient></defs>
+<rect width="900" height="1100" fill="url(#b)"/>
+<path d="M180 230 Q450 700 720 230" fill="none" stroke="url(#g)" stroke-width="18"/>
+<path d="M210 250 Q450 650 690 250" fill="none" stroke="#f0d890" stroke-opacity=".3" stroke-width="4"/>
+<circle cx="450" cy="610" r="115" fill="#16140f" stroke="url(#g)" stroke-width="22"/>
+<polygon points="450,515 535,610 450,725 365,610" fill="#dfe9ff" stroke="#fff8dc" stroke-opacity=".55" stroke-width="6"/>
+<path d="M450 530 L480 610 L450 690 L420 610 Z" fill="#fff" opacity=".25"/>
+<g fill="#f9edc4"><circle cx="250" cy="350" r="7"/><circle cx="650" cy="350" r="7"/><circle cx="310" cy="440" r="5"/><circle cx="590" cy="440" r="5"/></g>
+<text x="450" y="1010" text-anchor="middle" fill="#c8a85f" font-family="Georgia,serif" font-size="24" letter-spacing="8">AURELIA</text>
+</svg>
