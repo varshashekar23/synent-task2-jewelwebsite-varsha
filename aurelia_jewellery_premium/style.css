@@ -211,3 +211,13 @@ body.hero-ready .hero-bottom{animation:heroBottomReveal 1.8s ease both}
   .newsletter form{flex-direction:column;gap:8px;padding-bottom:10px}
   .newsletter button{text-align:center;padding:10px 0}
 }
+
+/* Keyboard accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible{
+  outline:2px solid var(--gold2);
+  outline-offset:4px;
+}
