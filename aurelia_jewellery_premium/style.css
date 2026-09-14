@@ -197,3 +197,17 @@ body.hero-ready .hero-bottom{animation:heroBottomReveal 1.8s ease both}
 .confirmation-card{max-width:600px;margin:28px auto 30px;border:1px solid #34342f;background:#11110f;text-align:left;padding:22px 25px}
 .confirmation-top,.confirmation-item,.confirmation-total{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid #2d2d29;font-size:8px;color:#999}.confirmation-top span,.confirmation-total span{font-size:6px;letter-spacing:.18em;color:#666}.confirmation-top b{color:#e1c98d;font-weight:400}.confirmation-item b{color:#ddd;font-weight:400}.confirmation-total{border:0;padding-top:20px;color:#eee}.confirmation-total b{font-size:11px}
 @media(max-width:800px){.search-result strong{font-size:21px}.confirmation-card{padding:18px}.cart-controls{margin-top:10px}}
+
+/* Extra-small device refinement */
+@media(max-width:360px){
+  .site-header{padding:0 5vw}
+  .brand span{font-size:20px}
+  .brand small{font-size:5px}
+  .hero h1{font-size:52px}
+  .hero-copy{font-size:9px;margin:20px 0}
+  .hero-cta{gap:14px}
+  .btn{padding:14px 16px;font-size:6px}
+  .jewel-card.tall .jewel-photo,.jewel-photo{height:400px}
+  .newsletter form{flex-direction:column;gap:8px;padding-bottom:10px}
+  .newsletter button{text-align:center;padding:10px 0}
+}
